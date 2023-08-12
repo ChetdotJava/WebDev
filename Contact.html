@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0%;
+      padding: 0%;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      color: rgb(240, 5, 240);
+    }
+    textarea {
+      height: 100px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: rgb(218, 15, 218);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #09f014;
+    }
+    footer{
+      color: black;
+    }
+  </style>
+  <link rel="icon image" type="jpg" href="myPhoto.jpg">
+</head>
+<body>
+  <nav class="header" style="background-color: rgb(224, 103, 224); color: chartreuse; height: 50px;">
+    <a href="index.html" target="_self">Home</a> |  
+    <a href="Education.html" target="_self">Education</a> |    
+    <a href="Hobbies.html" target="_self">Hobbies</a> |         
+    <a href="Contact.html" target="_self">Contact</a> | 
+</nav>
+  <div class="container">
+    <h1 style="color: magenta;">Contact Us</h1>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <footer class="footer" style="background-color: rgb(224, 103, 224); padding: 5px; " ><p> &COPY; copyrights 2020<br>&reg; all rights reserved</p>
+    <p> made with &heartsuit; by Chetna Bansal</p>
+    </footer>
+</body>
+</html>
