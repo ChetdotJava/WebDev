@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --shadow-color: black;
+}
+
+body{
+    /* background-color: rgb(231, 225, 216); */
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(255, 59, 0, 1) 100%);
+    margin: 10px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cards{
+    /*  outer card consists of image & intro */
+    display: inline-block;
+    margin: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 10px var(--shadow-color);
+}
+
+.intro{
+    box-sizing: content-box;
+    margin: 2px;
+    padding: 15px;
+}
+
+#female{
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 100%);
+
+}
+
+#male{
+    background: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+}
+
+img{
+    margin: 2px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.cards:hover {
+    box-shadow: 20px 20px 30px 30px var(--shadow-color);
+    transition-duration: 3s;
+    transition-delay: 0.1s;
+}
